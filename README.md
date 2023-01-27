@@ -5,7 +5,7 @@
 
 Raycast extension for fetching and displaying news from omni.se
 
-![Example](./assets/omni-news-screenshot.png)
+![Example](./metadata/omni-news-screenshot.png)
 
 The amount of news that are to be fetched can be changed in the Raycast settings menu.
 The default is 10.
