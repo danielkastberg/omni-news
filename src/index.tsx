@@ -58,6 +58,12 @@ export default function omni() {
                 title="Read Article"
                 target={<OpenArticle {...article} />}
               />
+              <ActionPanel.Section>
+                <Action.OpenInBrowser
+                  shortcut={{ modifiers: ["cmd"], key: "b" }}
+                  url={article.articleLink}
+                />
+              </ActionPanel.Section>
             </ActionPanel>
           }
         />
