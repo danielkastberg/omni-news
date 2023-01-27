@@ -1,11 +1,9 @@
-# Omni News
-
 <p align="center">
-   <img src="assets/omni_icon.png" height="128">
-   <h1 align="center">Omni News/h1>
- </p>
+  <img src="assets/omni_icon.png" height="128">
+  <h1 align="center">Omni News</h1>
+</p>
 
-Fetch news from omni.se
+Raycast extension for fetching and displaying news from omni.se
 
 ![Example](./assets/omni-news-screenshot.png)
 
