@@ -1,4 +1,4 @@
-import { Duration } from "./Duration";
+import { Duration } from "./duration";
 
 export interface Article {
   article_id: string;

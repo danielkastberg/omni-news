@@ -10,8 +10,8 @@ import {
 } from "@raycast/api";
 import json2md from "json2md";
 import { useEffect, useState } from "react";
-import { fecthArticle } from "./api";
-import { Article, iconToEmojiMap } from "./Article";
+import { fetchArticles } from "./api";
+import { Article, iconToEmojiMap } from "./models/article";
 
 export default function omni() {
   const [articles, setArticles] = useState<Article[]>([]);
@@ -19,7 +19,7 @@ export default function omni() {
 
   async function fetchData() {
     try {
-      const articles = await fecthArticle();
+      const articles = await fetchArticles();
       setArticles(articles);
       isLoading(false);
     } catch (error) {
